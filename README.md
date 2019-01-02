@@ -1,82 +1,194 @@
-# Browser Logos [![Build Status](https://travis-ci.org/alrra/browser-logos.svg?branch=master)](https://travis-ci.org/alrra/browser-logos)
+# Browser Logos
+This repository forked **[from](https://github.com/alrra/browser-logos) (alrra/browser-logos)** and being developed **[for](https://github.com/matomo-org/device-detector) (matomo-org/device-detector)** compatible.
 
-<table>
-    <tbody>
-        <tr>
-            <td height=320>
-                <a href="https://raw.githubusercontent.com/alrra/browser-logos/master/src/main-desktop-browser-logos.png">
-                    <img src="src/main-desktop-browser-logos.png" alt="Main desktop browsers">
-                </a>
-                <a href="https://raw.githubusercontent.com/alrra/browser-logos/master/src/main-mobile-browser-logos.png">
-                   <img src="src/main-mobile-browser-logos.png" alt="Main mobile browsers">
-                </a>
-            </td>
-        </tr>
-    </tbody>
-</table>
+❌: unavailable
+✅: available
+💠: custom addition
 
-You may want these for a presentation, a blog post or for the site
-featuring your brand new awesome lightbox script (please no!). All
-logos are high resolution with transparent backgrounds.
+# Available Sizes
 
----
+- 16x16
+- 24-x24
+- 32x32
+- 48x48
+- 64x64
+- 128x128
 
-## Current browser logos
+## List of Client/Browser Names and Custom Short Codes
+Image files are named with these titles (**see the [reference](https://github.com/matomo-org/device-detector/blob/c136bf9147bd8f33746b1915331fba133d076ed5/Parser/Client/Browser.php#L29)**). Current and frequently used logos defining clients/browsers were selected. Therefore, the version or naming differences were ignored when listing.
 
-For logos of browsers that are currently active, check the [`src/`][src
-readme] directory.
+```json
+{
+    "36": "360 Phone Browser",
+    "3B": "360 Browser",
+    "AA": "Avant Browser",
+    "AB": "ABrowse",
+    "AF": "ANT Fresco",
+    "AG": "ANTGalio",
+    "AL": "Aloha Browser",
+    "AM": "Amaya",
+    "AO": "Amigo",
+    "AN": "Android Browser",
+    "AR": "Arora",
+    "AV": "Amiga Voyager",
+    "AW": "Amiga Aweb",
+    "AT": "Atomic Web Browser",
+    "AS": "Avast Secure Browser",
+    "BB": "BlackBerry Browser",
+    "BD": "Baidu Browser",
+    "BS": "Baidu Spark",
+    "BE": "Beonex",
+    "BJ": "Bunjalloo",
+    "BL": "B-Line",
+    "BR": "Brave",
+    "BK": "BriskBard",
+    "BX": "BrowseX",
+    "CA": "Camino",
+    "CC": "Coc Coc",
+    "CD": "Comodo Dragon",
+    "C1": "Coast",
+    "CX": "Charon",
+    "CF": "Chrome Frame",
+    "HC": "Headless Chrome",
+    "CH": "Chrome ✅",
+    "CI": "Chrome Mobile iOS",
+    "CK": "Conkeror",
+    "CM": "Chrome Mobile",
+    "CN": "CoolNovo",
+    "CO": "CometBird",
+    "CP": "ChromePlus",
+    "CR": "Chromium",
+    "CY": "Cyberfox",
+    "CS": "Cheshire",
+    "CU": "Cunaguaro",
+    "DB": "dbrowser",
+    "DE": "Deepnet Explorer",
+    "DF": "Dolphin",
+    "DO": "Dorado",
+    "DL": "Dooble",
+    "DI": "Dillo",
+    "EI": "Epic",
+    "EL": "Elinks",
+    "EB": "Element Browser",
+    "EP": "GNOME Web",
+    "ES": "Espial TV Browser",
+    "FB": "Firebird",
+    "FD": "Fluid",
+    "FE": "Fennec",
+    "FF": "Firefox ✅",
+    "FK": "Firefox Focus",
+    "FL": "Flock",
+    "FM": "Firefox Mobile",
+    "FW": "Fireweb",
+    "FN": "Fireweb Navigator",
+    "GA": "Galeon",
+    "GE": "Google Earth",
+    "HJ": "HotJava",
+    "IA": "Iceape",
+    "IB": "IBrowse",
+    "IC": "iCab",
+    "I2": "iCab Mobile",
+    "I1": "Iridium",
+    "ID": "IceDragon",
+    "IV": "Isivioo",
+    "IW": "Iceweasel",
+    "IE": "Internet Explorer ✅💠",
+    "IM": "IE Mobile",
+    "IR": "Iron",
+    "JS": "Jasmine",
+    "JI": "Jig Browser",
+    "KI": "Kindle Browser",
+    "KM": "K-meleon",
+    "KO": "Konqueror",
+    "KP": "Kapiko",
+    "KY": "Kylo",
+    "KZ": "Kazehakase",
+    "LB": "Liebao",
+    "LG": "LG Browser",
+    "LI": "Links",
+    "LU": "LuaKit",
+    "LS": "Lunascape",
+    "LX": "Lynx",
+    "MB": "MicroB",
+    "MC": "NCSA Mosaic",
+    "ME": "Mercury",
+    "MF": "Mobile Safari",
+    "MI": "Midori",
+    "MU": "MIUI Browser",
+    "MS": "Mobile Silk",
+    "MX": "Maxthon",
+    "NB": "Nokia Browser",
+    "NO": "Nokia OSS Browser",
+    "NV": "Nokia Ovi Browser",
+    "NE": "NetSurf",
+    "NF": "NetFront",
+    "NL": "NetFront Life",
+    "NP": "NetPositive",
+    "NS": "Netscape",
+    "NT": "NTENT Browser",
+    "OB": "Obigo",
+    "OD": "Odyssey Web Browser",
+    "OF": "Off By One",
+    "OE": "ONE Browser",
+    "OI": "Opera Mini✅",
+    "OM": "Opera Mobile",
+    "OP": "Opera ✅",
+    "ON": "Opera Next",
+    "OO": "Opera Touch✅",
+    "OR": "Oregano",
+    "OV": "Openwave Mobile Browser",
+    "OW": "OmniWeb",
+    "OT": "Otter Browser",
+    "PL": "Palm Blazer",
+    "PM": "Pale Moon",
+    "PP": "Oppo Browser",
+    "PR": "Palm Pre",
+    "PU": "Puffin",
+    "PW": "Palm WebPro",
+    "PA": "Palmscape",
+    "PX": "Phoenix",
+    "PO": "Polaris",
+    "PT": "Polarity",
+    "PS": "Microsoft Edge ✅",
+    "QQ": "QQ Browser",
+    "QT": "Qutebrowser",
+    "QZ": "QupZilla",
+    "RK": "Rekonq",
+    "RM": "RockMelt",
+    "SB": "Samsung Browser",
+    "SA": "Sailfish Browser",
+    "SC": "SEMC-Browser",
+    "SE": "Sogou Explorer",
+    "SF": "Safari",
+    "SH": "Shiira",
+    "SK": "Skyfire",
+    "SS": "Seraphic Sraf",
+    "SL": "Sleipnir",
+    "SM": "SeaMonkey",
+    "SN": "Snowshoe",
+    "SR": "Sunrise",
+    "SP": "SuperBird",
+    "ST": "Streamy",
+    "SX": "Swiftfox",
+    "TZ": "Tizen Browser",
+    "TS": "TweakStyle",
+    "UC": "UC Browser",
+    "VI": "Vivaldi",
+    "VB": "Vision Mobile Browser",
+    "WE": "WebPositive",
+    "WF": "Waterfox",
+    "WO": "wOSBrowser",
+    "WT": "WeTab Browser",
+    "YA": "Yandex Browser",
+    "XI": "Xiino"
+}
+```
 
-<table>
-    <tbody>
-        <tr height=160>
-            <td><a href="src/README.md#readme"><img width=150 src="src/browser-logos.gif" alt="List of browser logo"></a></td>
-        </tr>
-    </tbody>
-</table>
-
-## Old browser logos
-
-For older logos, or logos of browsers that are no longer active, check
-the [`src/archive/`][archive readme] directory.
-
-<table>
-    <tbody>
-        <tr height=160>
-            <td><a href="src/archive/README.md#readme"><img width=150 src="src/old-browser-logos.gif" alt="List of old browser logo"></a></td>
-        </tr>
-    </tbody>
-</table>
-
----
-
-## Acknowledgements
-
-[Browser Logos][repo] is only possible thanks to all the awesome
-[contributors][contributors]!
-
-## Contributing
-
-Anyone and everyone is welcome to contribute, but before you do, please
-take a moment to review the [guidelines](.github/CONTRIBUTING.md).
-
-* [Bug reports](.github/CONTRIBUTING.md#bugs)
-* [Feature requests](.github/CONTRIBUTING.md#features)
-* [Pull requests](.github/CONTRIBUTING.md#pull-requests)
-
-## Getting the browser logos
-
-There are a few options for getting the browser logos:
-
-#### 1) Get individual logos:
-
-   * Install via [`npm`][npm]: `npm install --save-dev @browser-logos/`[`<logo>`][npm org].
-   * Use [`cdnjs`][cdnjs].
-
-#### 2) Get all logos:
-
-   * Use [`cdnjs`][cdnjs].
-   * Download the [`zip` archive][archive].
-   * Install via [`npm`][npm]: `npm install alrra/browser-logos#46.1.0`
+## Naming Example
+**Browser Name:** Opera Next\
+**Folder Name:** opera-next\
+**File Name:** opera-next_sizexsize.png\
+**Full Example:** opera-next/opera-next_24x24.png
 
 ## Legal
 
@@ -86,24 +198,3 @@ If you represent the entity that has the rights over a logo and
 you want, for whatever reason, that logo removed from this project,
 [open an issue][issues] requesting its takedown and we will remove
 it as soon as possible.
-
-Everything else is available under the MIT license.
-
-## Project origin and history
-
-Read [Paul Irish][github paul]'s [*"High-res Browser Logos"*][article
-paul] blog post.
-
-<!-- Link labels: -->
-
-[archive readme]: src/archive/README.md#readme
-[archive]: https://github.com/alrra/browser-logos/archive/46.1.0.zip
-[article paul]: https://www.paulirish.com/2010/high-res-browser-icons/
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
-[contributors]: https://github.com/alrra/browser-logos/graphs/contributors
-[github paul]: https://github.com/paulirish/
-[issues]: https://github.com/alrra/browser-logos/issues/new
-[npm org]: https://www.npmjs.com/org/browser-logos
-[npm]: https://www.npmjs.com/
-[repo]: https://github.com/alrra/browser-logos/
-[src readme]: src/README.md#readme
